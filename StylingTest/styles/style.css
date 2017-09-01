@@ -1,0 +1,100 @@
+/* General setup */
+@font-face {
+	font-family: 'Josefin Sans';
+	src: url('../fonts/Josefin_Sans/JosefinSans-Italic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Orbitron';
+	src: url('../fonts/Orbitron/Orbitron-Bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+/*------------------*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1em;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+h1, h2
+{
+  font-family: 'Orbitron', sans-serif;
+}
+header h1
+{
+  text-align: center;
+}
+section ul, aside ul
+{
+  list-style-type: square;
+}
+section ol
+{
+  list-style-type: lower-alpha;
+}
+a[href*="http"]
+{
+  background: url('../images/external-link-52.png') no-repeat 100% 0;
+  background-size: 16px 16px;
+  padding-right: 19px;
+}
+nav ul
+{
+	list-style-type: none;
+}
+nav a
+{
+
+	text-decoration: none;
+	border: 1px solid #a66;
+	line-height: 1;
+	margin-bottom: 10px;
+	padding: 20px;
+	display: block;
+	text-align: center;
+}
+a
+{
+	color: #a66;
+}
